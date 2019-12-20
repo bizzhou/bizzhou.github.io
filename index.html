@@ -65,6 +65,74 @@
       
         
 
+<article id="post-solved_gradle_issue" class="article article-type-post" itemscope itemprop="blogPost" data-scroll-reveal>
+  
+  <div class="article-inner">
+    
+      <header class="article-header">
+        
+  
+    <h2 itemprop="name">
+      <a class="article-title" href="/2019/12/20/solved_gradle_issue/">Gradle version issue</a>
+    </h2>
+  
+  
+
+
+
+
+      </header>
+    
+
+    
+      <div class="article-meta">
+        <a href="/2019/12/20/solved_gradle_issue/" class="article-date">
+  <time datetime="2019-12-20T21:30:27.437Z" itemprop="datePublished">2019-12-20</time>
+</a>
+        
+      </div>
+    
+
+    
+
+    <div class="article-entry" itemprop="articleBody">
+      
+
+
+      
+
+      
+        <p>Learning Gradle bulid system today by following alone with the book “<strong>Gradle in Action</strong>“ and I had a little trouble with running Jetty with Gradle, after some googling, it looks like </p>
+<figure class="highlight groovy"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">plug <span class="string">'jetty'</span></span><br></pre></td></tr></table></figure>
+
+<p>is no longer used after Gradle 4.0, so there are two options for me:</p>
+<ol>
+<li>To build with the new Gretty plugin and move forward, but every subsequence example in the book needs a new setup.</li>
+<li>Use the gradle version in the book and follow along.</li>
+</ol>
+<p>Obviously, options 2 is a better way to follow along with the book. Now, homebrew (my preferred package manager) doesn’t have an easy way to install an older version of Gradle or Java. That is why I decided to spin up a ubuntu virtual machine and quickly setup an environment by install both Java 8 and Gradle 1.7, SDKMan rocks, you can choose which version of Gradle you want to use. Turns out it is much quicker to do it in a vm than on my Mac. The lesson for today virtual machines are really handy when it comes to experimenting and through away environments. Virtual machines without GUI interface are pretty minimal on resources, not much resource consumed compare to Chrome 🍻.</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2019/12/20/solved_gradle_issue/" data-id="ck4eosfft0000d81fejpygo7i"
+         class="article-share-link">Share</a>
+      
+    </footer>
+
+  </div>
+
+  
+
+  
+
+</article>
+
+
+
+      
+        
+
 <article id="post-reverse_integer" class="article article-type-post" itemscope itemprop="blogPost" data-scroll-reveal>
   
   <div class="article-inner">
